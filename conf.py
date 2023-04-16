@@ -1,6 +1,6 @@
 # outline for a myst_nb project with sphinx
-# build with: sphinx-build -nW --keep-going -b html . ./_build/html
-#  .venvX/bin/sphinx-build  -nW --keep-going -b html . ./_build/html
+# build with: sphinx-build -nW -E --keep-going -b html . ./_build/html
+#  .venv/bin/sphinx-build  -nW -E --keep-going -b html . ./_build/html
 html_favicon = 'favicon.ico'
 
 language = 'en'
@@ -24,11 +24,9 @@ nitpicky = True
 
 nb_execution_mode = "off"
 
-
 # load extensions
 extensions = ["myst_nb",
               "sphinx_copybutton"
 ]
 
-# html_theme = 'furo'
-html_theme = 'sphinx_book_theme'
+html_theme = 'furo'
