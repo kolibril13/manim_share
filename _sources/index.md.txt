@@ -1,6 +1,6 @@
 # Sharing manim code.
 
-Welcome! 
+Hello World! 
 
 
 Content:
