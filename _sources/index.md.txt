@@ -6,8 +6,8 @@ Hello World!
 Content:
 
 ```{toctree}
-my_notebook
-another_notebook
+nb_manim_example
+nb_another_chapter
 ```
 
 Repository on GitHub:  
