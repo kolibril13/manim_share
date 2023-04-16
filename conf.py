@@ -19,8 +19,6 @@ project = "MyST-NB Quickstart"
 # basic build settings
 exclude_patterns = ["_build", "README.md"]
 include_patterns = ["*.md", "*.ipynb"]
-html_static_path = ['.']
-html_css_files = ['custom.css']
 
 nitpicky = True
 
