@@ -19,6 +19,9 @@ project = "MyST-NB Quickstart"
 # basic build settings
 exclude_patterns = ["_build", "README.md"]
 include_patterns = ["*.md", "*.ipynb"]
+html_static_path = ['.']
+html_css_files = ['custom.css']
+
 nitpicky = True
 
 nb_execution_mode = "off"
@@ -29,4 +32,5 @@ extensions = ["myst_nb",
               "sphinx_copybutton"
 ]
 
-html_theme = 'furo'
+# html_theme = 'furo'
+html_theme = 'sphinx_book_theme'
